@@ -8,6 +8,8 @@ brew install --build-from-source homebrew/php/php70
 # The other packages should be fine.
 brew install mariadb nginx homebrew/php/php70-xdebug homebrew/php/php70-mcrypt homebrew/php/php70-redis
 
+brew cask install sequel-pro
+
 cp files/nginx.conf /usr/local/etc/nginx/nginx.conf
 cp files/ext-xdebug.ini /usr/local/etc/php/7.0/conf.d/ext-xdebug.ini
 

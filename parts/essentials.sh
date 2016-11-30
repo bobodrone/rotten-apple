@@ -6,3 +6,5 @@ if ! hash brew 2>/dev/null; then
 fi
 # Tap that brew cask ass.
 brew tap caskroom/cask
+
+brew cask install launchrocket
