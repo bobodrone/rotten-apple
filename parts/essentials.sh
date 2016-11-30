@@ -8,3 +8,5 @@ fi
 brew tap caskroom/cask
 
 brew cask install launchrocket
+
+brew cask install visual-studio-code
